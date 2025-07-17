@@ -1,0 +1,42 @@
+AVATAR PROCESSING SERVICE CHALLENGE
+
+Build a service that:
+1. Accepts avatar generation requests from users
+2. Generates a mock avatar 
+3. Calls our content moderation LLM API
+4. Returns the final result
+
+Time: ~30 minutes
+Language: Your choice
+Tools: Use whatever you prefer (AI assistants welcome!)
+
+
+
+Content Moderation API
+
+Content Moderation API:
+POST /api/v1/moderate-content
+Headers: Authorization: Bearer <token>
+
+Request Body:
+{
+  "content": "description of the generated avatar",
+  "user_id": "user123"
+}
+
+Response (success):
+{
+  "approved": true,
+  "reason": "Content appears safe"
+}
+
+Response (rejected):
+{
+  "approved": false,
+  "reason": "Contains inappropriate content"
+}
+
+Error responses: Standard HTTP status codes
+
+
+
