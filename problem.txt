@@ -39,4 +39,3 @@ Response (rejected):
 Error responses: Standard HTTP status codes
 
 
-
