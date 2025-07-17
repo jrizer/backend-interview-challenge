@@ -21,8 +21,6 @@ Response: {
 from dataclasses import dataclass
 from typing import Optional, Dict
 from datetime import datetime
-import uuid
-
 
 @dataclass
 class ModerationResponse:
@@ -123,7 +121,7 @@ class AvatarProcessingService:
         Returns:
             str: Mock URL to the generated avatar
         """
-        # TODO: Return a mock URL like "https://avatars.example.com/avatar_123.png"
+        # TODO: Return a unique mock URL like "https://avatars.example.com/avatar_123.png"
         pass
 
 
