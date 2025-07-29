@@ -1,0 +1,25 @@
+{
+  "name": "avatar-processing-service",
+  "version": "1.0.0",
+  "description": "A service for processing avatar generation requests with content moderation",
+  "main": "solution.js",
+  "scripts": {
+    "start": "node solution.js",
+    "test": "node template.js",
+    "demo": "node solution.js"
+  },
+  "keywords": [
+    "avatar",
+    "moderation",
+    "api",
+    "nodejs",
+    "interview"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Interview Candidate",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+} 
