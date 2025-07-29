@@ -2,11 +2,11 @@
   "name": "avatar-processing-service",
   "version": "1.0.0",
   "description": "A service for processing avatar generation requests with content moderation",
-  "main": "solution.js",
+  "main": "template.js",
   "scripts": {
-    "start": "node solution.js",
+    "start": "node template.js",
     "test": "node template.js",
-    "demo": "node solution.js"
+    "demo": "node template.js"
   },
   "keywords": [
     "avatar",
